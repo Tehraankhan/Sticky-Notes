@@ -44,7 +44,7 @@ body {
 
 }
 
-.container button {
+button {
 
     height: 40px;
     width: 106px;
@@ -126,4 +126,28 @@ body {
     cursor: pointer;
     outline: none;
 
+}
+
+.container2 {
+    margin: 42px 419px;
+    width: 622px;
+    height: 375px;
+    position: fixed;
+    top: 50px;
+    background-color: #343452;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 0px 0px 0px 0px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+}
+
+.wrappaer {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background-color: rgb(34 94 122 / 93%);
 }
