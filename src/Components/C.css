@@ -1,0 +1,129 @@
+.container {
+
+
+
+    margin: 42px 419px;
+    width: 718px;
+    height: 312px;
+
+
+}
+
+* {
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+
+body {
+
+    background: #343452;
+}
+
+.Ipt1 {
+    background: #dfffe0;
+    width: 546px;
+    height: 74px;
+    margin: 7px 19px;
+    border-radius: 5px;
+    font-size: 20px;
+
+    border: 1px solid black;
+    padding: 2px 8px;
+}
+
+.Ipt2 {
+    background: #f7f7aff2;
+    width: 546px;
+    height: 144px;
+    margin: 7px 19px;
+    border-radius: 5px;
+    font-size: 20px;
+    border: 1px solid black;
+    padding: 2px 8px;
+
+
+}
+
+.container button {
+
+    height: 40px;
+    width: 106px;
+    border: 1px solid black;
+    margin: 0px 18px;
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+
+    background-color: rgba(98, 98, 255, 0.644);
+    color: white;
+
+
+}
+
+.container1 {
+
+
+
+    border: 1px solid black;
+    width: 323px;
+
+    color: white;
+    background-color: rgb(180 241 255);
+
+
+
+    display: inline-block;
+
+    overflow: hidden;
+    margin: 20px 60px;
+    border-radius: 10px;
+
+
+
+
+
+}
+
+.container1 h1 {
+    color: black;
+    text-align: center;
+    margin: 9px 0px;
+}
+
+.container1 p {
+    color: black;
+    margin-bottom: 10px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    padding-left: 62px;
+}
+
+.Delete-btn {
+
+    position: relative;
+    height: 40px;
+    width: 106px;
+    font-size: 20px;
+    float: right;
+    color: rgb(0, 47, 255);
+    border: none;
+    background: none;
+    cursor: pointer;
+    outline: none;
+
+}
+
+.Update-btn {
+
+    position: relative;
+    height: 40px;
+    width: 106px;
+    font-size: 20px;
+    float: left;
+    color: rgb(0, 47, 255);
+    border: none;
+    background: none;
+    cursor: pointer;
+    outline: none;
+
+}
