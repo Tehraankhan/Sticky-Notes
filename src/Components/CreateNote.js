@@ -11,12 +11,12 @@ function CreateNote(props) {
 
 
         const { name, value } = e.target;
+        console.log(value);
 
         setNote((prevData) => {
 
             return {
-                ...prevData,
-                [name]: value,
+                ...prevData, [name]: value,
 
 
             };

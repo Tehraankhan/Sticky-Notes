@@ -1,6 +1,15 @@
-import React from "react"
+import React, { useState } from "react"
+
+import "./C.css"
 
 function Notes(props) {
+
+
+
+
+
+
+
 
 
 
@@ -19,6 +28,8 @@ function Notes(props) {
                 </div>
 
                 <button onClick={() => props.onDelete(props.id)} className="Delete-btn">Delete</button>
+
+
 
 
             </div>

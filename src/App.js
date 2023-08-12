@@ -4,8 +4,10 @@ import './App.css';
 import CreateNote from './Components/CreateNote';
 import Notes from './Components/Notes';
 
+
 function App() {
   const [addItem, setaddItem] = useState([]);
+
   const addNote = (note) => {
 
     setaddItem((prevData) => {
@@ -20,14 +22,26 @@ function App() {
 
   }
   const DeleteNotes = (id) => {
+
     setaddItem(prevData => {
       return [...prevData.filter((val, index) =>
         index !== id)]
     })
   }
+
+
+
+
+
+
+
+
+
+
   return (
     <>
       <h1 >Sticky Notes</h1>
+
 
 
       <CreateNote passNote={addNote} />
@@ -35,16 +49,19 @@ function App() {
       {addItem.map((val, index) => {
 
         return <Notes
+          list={addItem}
           key={index}
           id={index}
           title={val.title}
           content={val.content}
-          onDelete={DeleteNotes} />
+          onDelete={DeleteNotes}
+
+        />
       })}
 
 
     </>
   );
-}
 
+}
 export default App;
